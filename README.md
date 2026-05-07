@@ -148,7 +148,6 @@ src/
 # Tecnologias Utilizadas
 
 * Java
-* Programação Orientada a Objetos (POO)
 * Arquivos JSON/TXT para persistência de dados
 * Programação estruturada
 * Modularização
@@ -160,7 +159,7 @@ src/
 **Disciplina:** Desenvolvimento de Programas Estruturados e Modularização
 **Professor:** Raffael Carvalho
 **Instituição:** UNIVAS
-**Entrega:** 20/05/2026
+**Entrega:** 16/06/2026
 
 ---
 
