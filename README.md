@@ -179,7 +179,7 @@ Este repositório recebe atualizações constantes contendo:
 
 # Integrantes do Grupo
 
-* Nome do integrante 1
-* Nome do integrante 2
-* Nome do integrante 3
-* Nome do integrante 4
+* Luiz Gustavo Silva Nogueira
+* Matheus Biagioni
+* Gabriel Silva Machado
+
