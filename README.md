@@ -1,62 +1,168 @@
-# Sistema-de-Gestao---Fazenda-Esperanca
+# Sistema de Gestão — Fazenda Esperança
 
-Este repositório tem como base organizar e armazenar tudo que já foi e esta sendo realizado dentro do trabalho da mina inituição de ensino contendo updates, read.me e entre outras alterações
+## Sobre o Projeto
 
-Prompt usado na primeira parte do trabalho:
+Este repositório foi criado para armazenar e organizar todo o desenvolvimento do projeto **Sistema de Gestão da Fazenda Esperança**, realizado como Trabalho de Conclusão de Módulo da disciplina de Desenvolvimento de Programas Estruturados e Modularização.
 
------O que o sistema precisa ter-----
+O objetivo do sistema é auxiliar no controle da produção agrícola da fazenda, permitindo o gerenciamento de colaboradores, talhões, tratores e registros de entrada de café, além da emissão de relatórios gerenciais.
 
-1. Cadastro de Colaboradores
+---
 
-Cada colaborador:
+# Objetivos do Sistema
 
-Nome
-Matrícula
-Tipo de contrato
-Diarista
-Fixo
+O sistema foi desenvolvido para solucionar problemas de organização e controle da produção de café da Fazenda Esperança, automatizando processos que antes eram realizados manualmente.
 
-Exemplo:
+O projeto busca aplicar conceitos de:
 
+* Programação estruturada
+* Modularização
+* Manipulação de arquivos
+* Validação de dados
+* Organização de código
+
+---
+
+# Funcionalidades do Sistema
+
+## Cadastro de Colaboradores
+
+Cada colaborador possui:
+
+* Nome
+* Matrícula
+* Tipo de contrato:
+
+  * Diarista
+  * Fixo
+
+### Exemplo
+
+```txt
 Matrícula: 102
 Nome: João Silva
 Contrato: Diarista
-2. Cadastro de Talhões
+```
 
-Cada talhão:
+---
 
-Código
-Nome
-Variedade do café
-Estimativa de produção
+## Cadastro de Talhões
 
-Exemplo:
+Cada talhão possui:
 
+* Código
+* Nome
+* Variedade do café
+* Estimativa de produção
+
+### Exemplo
+
+```txt
 Código: T01
 Nome: Morro Alto
 Variedade: Catuaí
 Estimativa: 12000 litros
-3. Cadastro de Tratores
+```
 
-Cada trator:
+---
 
-Placa
-Capacidade máxima da carreta
+## Cadastro de Tratores
 
-Exemplo:
+Cada trator possui:
 
+* Placa
+* Capacidade máxima da carreta
+
+### Exemplo
+
+```txt
 Placa: ABC1D23
 Capacidade: 4500 litros
-4. Registro de Entrada do Café (parte principal)
+```
 
-Cada lançamento precisa registrar:
+---
 
-Data
-Matrícula do funcionário
-Código do talhão
-Placa do trator
-Quantidade de litros
-Destino
-Terreiro de cimento
-Secador mecânico 
----------------------
+## Registro de Entrada de Café
+
+O sistema registra cada carga de café recebida.
+
+Cada lançamento contém:
+
+* Data
+* Matrícula do colaborador responsável
+* Código do talhão
+* Placa do trator
+* Quantidade de litros
+* Destino da carga:
+
+  * Terreiro de cimento
+  * Secador mecânico
+
+---
+
+# Validações do Sistema
+
+O sistema impede:
+
+* Cadastro duplicado
+* Funcionários inexistentes
+* Talhões inexistentes
+* Tratores inexistentes
+* Cargas acima da capacidade permitida
+
+---
+
+# Relatórios
+
+O sistema gera relatórios como:
+
+* Produção por colaborador
+* Fechamento de talhões
+* Controle de secagem
+* Volume total produzido
+
+---
+
+# Estrutura do Projeto
+
+```txt
+main.py
+colaboradores.py
+talhoes.py
+tratores.py
+lancamentos.py
+relatorios.py
+persistencia.py
+dados/
+README.md
+```
+
+---
+
+# Tecnologias Utilizadas
+
+* Python
+* JSON para persistência de dados
+* Programação estruturada
+
+---
+
+# Informações Acadêmicas
+
+**Disciplina:** Desenvolvimento de Programas Estruturados e Modularização
+**Professor:** Raffael Carvalho
+**Instituição:** UNIVAS
+**Entrega:** 20/05/2026
+
+---
+
+# Status do Projeto
+
+🚧 Projeto em desenvolvimento 🚧
+
+Este repositório recebe atualizações constantes contendo:
+
+* Novas funcionalidades
+* Melhorias no sistema
+* Correções
+* Documentação
+* Estruturação do projeto
