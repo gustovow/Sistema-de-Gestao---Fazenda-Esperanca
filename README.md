@@ -16,7 +16,6 @@ O projeto busca aplicar conceitos de:
 
 * Programação estruturada
 * Modularização
-* Programação orientada a objetos
 * Manipulação de arquivos
 * Validação de dados
 * Organização de código
