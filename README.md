@@ -162,6 +162,24 @@ src/
 
 ---
 
+# Inteligências Artificiais Utilizadas
+
+Durante o desenvolvimento do projeto, algumas ferramentas de Inteligência Artificial foram utilizadas como apoio para:
+
+* Estruturação do sistema
+* Organização da documentação
+* Auxílio na lógica de programação
+* Revisão de código
+* Criação e melhoria do README
+* Geração de ideias para funcionalidades
+
+## Ferramentas Utilizadas
+
+* ChatGPT — apoio no planejamento, documentação e auxílio no desenvolvimento em Java
+* Claude Code — auxílio na programação, organização do projeto e suporte durante o desenvolvimento
+
+As ferramentas de IA foram utilizadas apenas como suporte ao desenvolvimento, enquanto toda a implementação, organização e adaptação do sistema foram realizadas pelos integrantes do grupo.
+
 # Status do Projeto
 
 🚧 Projeto em desenvolvimento 🚧
