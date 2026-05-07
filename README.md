@@ -16,6 +16,7 @@ O projeto busca aplicar conceitos de:
 
 * Programação estruturada
 * Modularização
+* Programação orientada a objetos
 * Manipulação de arquivos
 * Validação de dados
 * Organização de código
@@ -125,24 +126,32 @@ O sistema gera relatórios como:
 # Estrutura do Projeto
 
 ```txt
-main.py
-colaboradores.py
-talhoes.py
-tratores.py
-lancamentos.py
-relatorios.py
-persistencia.py
-dados/
-README.md
+src/
+├── Main.java
+├── model/
+│   ├── Colaborador.java
+│   ├── Talhao.java
+│   ├── Trator.java
+│   └── Lancamento.java
+├── service/
+│   ├── ColaboradorService.java
+│   ├── TalhaoService.java
+│   ├── TratorService.java
+│   └── RelatorioService.java
+├── repository/
+│   └── Persistencia.java
+└── data/
 ```
 
 ---
 
 # Tecnologias Utilizadas
 
-* Python
-* JSON para persistência de dados
+* Java
+* Programação Orientada a Objetos (POO)
+* Arquivos JSON/TXT para persistência de dados
 * Programação estruturada
+* Modularização
 
 ---
 
@@ -166,3 +175,12 @@ Este repositório recebe atualizações constantes contendo:
 * Correções
 * Documentação
 * Estruturação do projeto
+
+---
+
+# Integrantes do Grupo
+
+* Nome do integrante 1
+* Nome do integrante 2
+* Nome do integrante 3
+* Nome do integrante 4
