@@ -173,6 +173,58 @@ Durante o desenvolvimento do projeto, algumas ferramentas de Inteligência Artif
 * Criação e melhoria do README
 * Geração de ideias para funcionalidades
 
+---
+
+# Prompts Utilizados no Desenvolvimento
+
+Durante o desenvolvimento do projeto, alguns prompts foram utilizados para auxiliar no planejamento, organização e implementação das funcionalidades do sistema.
+
+Os prompts tiveram como objetivo melhorar a produtividade da equipe, facilitar a estruturação do código e apoiar a documentação.
+
+## Exemplos de Prompts Utilizados
+
+### Estruturação do Sistema
+
+```txt
+Crie uma estrutura de projeto Java utilizando programação estruturada e modularização para um sistema de gestão agrícola contendo cadastro de colaboradores, talhões, tratores e registros de entrada de café.
+```
+
+### Desenvolvimento de Funcionalidades
+
+```txt
+Crie a lógica para registrar entrada de café contendo validações para funcionário existente, talhão existente, trator existente e capacidade máxima da carreta.
+```
+
+### Validações
+
+```txt
+Implemente validações que impeçam cadastro duplicado e entradas de dados inválidas.
+```
+
+### Organização do Código
+
+```txt
+Sugira uma separação em pacotes para um sistema Java de gestão agrícola utilizando boas práticas de modularização.
+```
+
+### Documentação
+
+```txt
+Crie um README profissional para um projeto acadêmico de sistema de gestão agrícola contendo descrição, funcionalidades, tecnologias e integrantes.
+```
+
+### Correções e Melhorias
+
+```txt
+Analise o código Java e sugira correções, melhorias de organização e otimização da lógica.
+```
+
+## Observação
+
+Os prompts foram utilizados apenas como apoio durante o desenvolvimento. Toda análise, adaptação, implementação e validação final foram realizadas pelos integrantes do grupo.
+
+---
+
 ## Ferramentas Utilizadas
 
 * ChatGPT — apoio no planejamento, documentação e auxílio no desenvolvimento em Java
